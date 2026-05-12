@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: CNode.js
+        uses: actions/setup-node@v4
+        with:heckout code
         uses: actions/checkout@v4
 
       # For HTML/CSS, we check for syntax errors (Linting)
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
+      - name: Setup 
           node-version: '20'
 
       - name: Install HTML Hinter
